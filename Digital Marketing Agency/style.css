@@ -1,0 +1,273 @@
+#text {
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.tab h6 {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 325px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: crimson;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.item p {
+    font-size: 15px;
+}
+
+.item h6 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee;
+}
+
+a.LinkButton {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    text-decoration: none;
+    padding: 4px;
+    background-color: #fff;
+    border: none;
+    color: crimson;
+
+}
+
+.owl-carousel .owl-dots {
+    text-align: left;
+    border: 2 px solid crimson;
+    border-radius: 20px;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 100%;
+    padding: 22px 28px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: crimson;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    width: 50%;
+    height: 322px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    float: left;
+}
+
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Style the counter cards */
+.card {
+    text-align: center;
+    color: crimson;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.column h3 {
+    color: #000;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.section4 {
+    margin-top: 450px;
+    margin-bottom: 450px;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons 
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}*/
+
+.open-button {
+    background-color: crimson;
+    color:#fff;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    right: -6px;
+    width: 280px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+
+}
